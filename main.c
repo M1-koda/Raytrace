@@ -46,6 +46,7 @@ int	detect_obj_output_color(t_all *all, int a, int b)
 	calc_mply_vec(scn_p, 1 / calc_vector_len(scn_p));
 	obj_s = detect_obj_line(all, scn_p, all->scn->cam_p, &norm);
 	c_p = calc_obj_line(obj_s, all->scn->cam_p, scn_p, &norm);
+	//tr calc_phong inner_product
 	if (c_p)
 		color = calc_phong(obj_s->TRGB, all, norm, c_p);
 	else

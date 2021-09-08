@@ -51,6 +51,10 @@ int	obj_check_create(char **src, t_all *all)
 		result = create_cy(src, all);
 	else if (!name_checker(src[0], "cn") && cn_check(src))
 		result = create_cn(src, all);
+	else if (!name_checker(src[0], "tr") && tr_check(src))
+		result = create_tr(src, all);
+	else if (!name_checker(src[0], "sq") && sq_check(src))
+		result = create_sq(src, all);
 	else
 		result = 1;
 	return (result);

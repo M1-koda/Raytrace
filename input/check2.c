@@ -23,8 +23,6 @@ int	C_check(char **src)
 		return (0);
 	if (!check_xyz_rgb(src[2], 1))
 		return (0);
-	if (!check_normalized_vec(src[2]))
-		return (0);
 	if (!ft_isdouble(src[3]))
 		return (0);
 	return (1);
@@ -55,8 +53,6 @@ int	pl_check(char **src)
 		return (0);
 	if (!check_xyz_rgb(src[2], 1))
 		return (0);
-	if (!check_normalized_vec(src[2]))
-		return (0);
 	if (!check_xyz_rgb(src[3], 0))
 		return (0);
 	return (1);
@@ -71,8 +67,6 @@ int	cy_check(char **src)
 	if (!check_xyz_rgb(src[1], 1))
 		return (0);
 	if (!check_xyz_rgb(src[2], 1))
-		return (0);
-	if (!check_normalized_vec(src[2]))
 		return (0);
 	if (!ft_isdouble(src[3]))
 		return (0);
@@ -92,8 +86,6 @@ int	cn_check(char **src)
 	if (!check_xyz_rgb(src[1], 1))
 		return (0);
 	if (!check_xyz_rgb(src[2], 1))
-		return (0);
-	if (!check_normalized_vec(src[2]))
 		return (0);
 	if (!ft_isdouble(src[3]))
 		return (0);

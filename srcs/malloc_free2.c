@@ -57,6 +57,8 @@ t_obj	*create_obj(t_obj *start)
 	result->name = NULL;
 	result->norm = NULL;
 	result->point = NULL;
+	result->point2 = NULL;
+	result->point3 = NULL;
 	result->height = 0;
 	result->diameter = 0;
 	result->TRGB = 0;

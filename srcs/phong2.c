@@ -37,7 +37,7 @@ t_vector *line_v, t_vector *tmp)
 	double		km;
 
 	alpha = 9;
-	km = 0;
+	km = 0.7;
 	set_vector(&d_rgb, km * l_rgb->x, km * l_rgb->y, km * l_rgb->z);
 	inner = calc_inner_product(line_d, line_v);
 	if (inner >= 0)

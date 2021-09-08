@@ -24,6 +24,8 @@ int			sp_check(char **src);
 int			pl_check(char **src);
 int			cy_check(char **src);
 int			cn_check(char **src);
+int			tr_check(char **src);
+int			sq_check(char **src);
 void		free_error_exit(int err, t_all *all);
 int			calc_digit_number(int	digit);
 int			calc_dp_len(char **src, int thresh);
@@ -46,10 +48,13 @@ int			create_sp(char **src, t_all *all);
 int			create_pl(char **src, t_all *all);
 int			create_cy(char **src, t_all *all);
 int			create_cn(char **src, t_all *all);
+int			create_sq(char **src, t_all *all);
+int			create_tr(char **src, t_all *all);
 int			scnl_check_create(char **src, t_all *all);
 int			obj_check_create(char **src, t_all *all);
 double		ft_atod(char *src);
 int			create_RGB(char *src);
 t_vector	*create_xyz(char *src);
+t_vector	*create_xyz_norm(char *src);
 
 #endif

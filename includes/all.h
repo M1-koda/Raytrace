@@ -36,8 +36,7 @@ typedef struct s_all
 	void		*mlx;
 	void		*mlx_win;
 	void		*mlx_img;
-	void		*img_addr;		
-
+	void		*img_addr;
 }		t_all;
 
 t_all		*create_all(t_screen *scn, t_obj *objs);

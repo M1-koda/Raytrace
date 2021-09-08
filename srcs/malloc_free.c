@@ -68,6 +68,8 @@ void	free_objs(t_obj *start)
 		free(start->name);
 		free(start->norm);
 		free(start->point);
+		free(start->point2);
+		free(start->point3);
 		free(start);
 		start = tmp;
 	}

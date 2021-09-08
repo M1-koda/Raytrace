@@ -62,7 +62,7 @@ int	create_C(char **src, t_all *all)
 	if (!all->scn->cam_p)
 		all->scn->cam_p = create_xyz(src[1]);
 	if (!all->scn->cam_n)
-		all->scn->cam_n = create_xyz(src[2]);
+		all->scn->cam_n = create_xyz_norm(src[2]);
 	if (!all->scn->fov)
 		all->scn->fov = ft_atoi(src[3]);
 	if (!all->scn->cam_p || !all->scn->cam_n || all->scn->fov < 0 || \

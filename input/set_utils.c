@@ -102,3 +102,14 @@ t_vector	*create_xyz(char *src)
 		return (NULL);
 	return (result);
 }
+
+t_vector	*create_xyz_norm(char *src)
+{
+	t_vector	*res;
+	double		len;
+
+	res = create_xyz(src);
+	len = sqrt(pow(res->x, 2) + pow(res->y, 2) + pow(res->z, 2));
+	calc_mply_vec(res, 1 / len);
+	return (res);
+}

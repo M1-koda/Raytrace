@@ -34,6 +34,8 @@ typedef struct s_obj
 	char			*name;
 	t_vector		*norm;
 	t_vector		*point;
+	t_vector		*point2;
+	t_vector		*point3;
 	double			height;
 	double			diameter;
 	int				TRGB;
@@ -70,6 +72,10 @@ double		solution_d(double a, double b, double c);
 double		solve_plus_method(double a, double b, double c);
 double		solve_minus_method(double a, double b, double c);
 t_vector	*calc_sp_line(t_obj *sp, t_vector *cam_p, t_vector *d, \
+		t_vector **norm);
+t_vector	*calc_tr_line(t_obj *sp, t_vector *cam_p, t_vector *d, \
+		t_vector **norm);
+t_vector	*calc_sq_line(t_obj *sp, t_vector *cam_p, t_vector *d, \
 		t_vector **norm);
 t_vector	*create_new_vector(double x, double y, double z);
 void		set_vector(t_vector *set, double x, double y, double z);

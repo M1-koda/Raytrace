@@ -47,6 +47,10 @@ t_vector **norm)
 		c_p = calc_cy_line(obj, point, d, norm);
 	else if (!name_checker(obj->name, "cn"))
 		c_p = calc_cn_line(obj, point, d, norm);
+	else if (!name_checker(obj->name, "tr"))
+		c_p = calc_tr_line(obj, point, d, norm);
+	else if (!name_checker(obj->name, "sq"))
+		c_p = calc_sq_line(obj, point, d, norm);
 	return (c_p);
 }
 

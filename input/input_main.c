@@ -29,7 +29,10 @@ int	first_time_RCAL(char c)
 		index = 3;
 	if (index < 4)
 	{
-		RCAL[index] = 1;
+		if (index != 3)
+			RCAL[index] = 1;
+		else
+			RCAL[index] = 0;
 		return (1);
 	}
 	return (0);
@@ -45,7 +48,7 @@ int	input_check(char *rt_file, t_all *all, int check)
 		if (data[0] && ft_strchr("RCAL", data[0][0]) && \
 			first_time_RCAL(data[0][0]))
 			check = scnl_check_create(data, all);
-		else if (data[0] && ft_strchr("spc", data[0][0]))
+		else if (data[0] && ft_strchr("tspc", data[0][0]))
 			check = obj_check_create(data, all);
 		else if (data[0] && ft_isalnum(data[0][0]))
 			check = 1;
