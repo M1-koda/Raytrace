@@ -9,3 +9,6 @@ sudo apt-get install libx11-dev
 sudo apt-get install libxext-dev
 ```
 ### Intall
+```
+git clone https://github.com/M1-koda/Raytrace.git
+```
