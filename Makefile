@@ -11,7 +11,7 @@
 # **************************************************************************** #
 
 MAKE = make --no-print-directory
-NAME = miniRT
+NAME = raytracing
 CMP = gcc
 FLAG = -Wall -Werror -Wextra -D BUFFER_SIZE=200
 MLXFLAG = -lm -L./minilibx-linux/ -lmlx -lXext -lX11 -L./libft/ -lft
