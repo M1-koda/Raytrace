@@ -46,7 +46,7 @@ rtファイルとは、レンダリングの際に必要となるパラメータ
 また、知らないパラメータを入力した場合、引数エラーとなる。
 
 <details>
-<summary> 解像度 </summary>
+<summary> R:解像度 </summary>
 
 出力されるウィンドウサイズ(H x W) H,Wは整数とする。</br>
 ```
@@ -57,7 +57,7 @@ R 500 500
 </details>
 
 <details>
-<summary> 環境光 </summary>
+<summary> A:環境光 </summary>
 
 環境光はレンダリングである物体を映し出すときに、他の物体からの反射を考慮して加えられる定数である。</br>
 ```
@@ -71,7 +71,7 @@ A 0.2 255,255,255
 </details>
 
 <details>
-<summary> カメラ </summary>
+<summary> C:カメラ </summary>
 
 カメラの位置(レンダリングの処理を行う3次元の位置、方向を決める)を決めるパラメータを渡すコマンド。</br>
 ```
@@ -85,7 +85,7 @@ C 0.0,0,1 0,0,-1 70
 </details>
 
 <details>
-<summary> ライト </summary>
+<summary> l:ライト </summary>
 
 ```
 Ex)
@@ -98,7 +98,7 @@ l -40.0,50.0,0.0 0.6 10,0,255
 </details>
 
 <details>
-<summary> 球 </summary>
+<summary> sp:球 </summary>
 
 ```
 Ex)
@@ -111,7 +111,7 @@ sp 0.0,0.0,20.6 12.6 10,0,255
 </details>
 
 <details>
-<summary> 平面(無限の広がり) </summary>
+<summary> pl:平面(無限の広がり) </summary>
 
 ```
 Ex)
@@ -124,7 +124,7 @@ pl 0.0,0.0,-10.0 0.0,1.0,0.0 0,0,225
 </details>
 
 <details>
-<summary> 正方形 </summary>
+<summary> sq:正方形 </summary>
 
 ```
 Ex)
@@ -138,7 +138,7 @@ sq 0.0,0.0,20.6 1.0,0.0,0.0 5.0 255,0,255
 </details>
 
 <details>
-<summary> 円筒 </summary>
+<summary> cy:円筒 </summary>
 
 ```
 Ex)
@@ -153,7 +153,7 @@ cy 50.0,0.0,20.6 0.0,0.0,1.0 14.2 21.42　10,0,255
 </details>
 
 <details>
-<summary> 三角形 </summary>
+<summary> tr:三角形 </summary>
 
 ```
 Ex)
