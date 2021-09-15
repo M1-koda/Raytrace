@@ -215,6 +215,7 @@ cn 0,-4,-1 0,1,0  6  8  90,255,90
  ```
 
 ---
+https://qiita.com/koshishirai/items/a86ce3bb569cc4652e2f </br>
 ### 基本の形
 1. 球
 2. 平面（無限に広がる）
