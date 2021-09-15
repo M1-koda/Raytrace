@@ -46,12 +46,16 @@ rtファイルとは、レンダリングの際に必要となるパラメータ
 ---
 <details>
 #### <summary>解像度</summary>
+  
+  <div>
 出力されるウィンドウサイズ(H x W) H,Wは整数とする。
 ```
 Ex)
 R W_size H_size
 R 500 500
 ```
+    
+    </div>
 </details>
 
 ---
