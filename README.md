@@ -27,10 +27,8 @@ make: raytracingが作成される。
 make 
 ./raytracing [path-to-rt_file]
 ```
-オブジェクトファイルを消去したい場合、
-```
-make clean
-```
+上記の実行によって出力されるwindowを消したい場合、keyboardのescキー or window左上にある×ボタンをクリックすることで消える。</br>
+
 ---
 ### **rtファイル**
 rtファイルとは、レンダリングの際に必要となるパラメータを設定するファイルである。</br>
