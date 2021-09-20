@@ -42,7 +42,7 @@ rtファイルとは、レンダリングの際に必要となるパラメータ
 また、各パラメータの引数は空白(スペース)で区切られている必要がある。</br>
 先頭に'#'をつけることでコメントアウトできる</br>
 
-「整数」の引数に「実数」を、「実数」の引数に「整数」を入力した場合は引数エラーとなる。</br>
+「整数」の引数に「実数」を入力した場合は引数エラーとなる。</br>
 また、知らないパラメータを入力した場合、引数エラーとなる。
 
 <details>
@@ -215,14 +215,11 @@ cn 0,-4,-1 0,1,0  6  8  90,255,90
  ```
 
 ---
-https://qiita.com/koshishirai/items/a86ce3bb569cc4652e2f </br>
+
 ### 基本の形
-1. 球
-2. 平面（無限に広がる）
-3. 円筒
-4. 三角形平面
-5. 四角形平面
-6. 円錐
+|球|平面|円筒|三角形平面|四角形平面|円錐|
+|---|---|---|---|---|---|
+|![sp](fundamental%20shape/sphere.png?raw=true)|![pl](fundamental%20shape/plane.png?raw=true)|![cy](fundamental%20shape/cylinder.png?raw=true)|![tr](fundamental%20shape/triangle.png?raw=true)|![sq](fundamental%20shape/square.png?raw=true)|![cn](fundamental%20shape/cone.png?raw=true)|
 
 ### 例題
 
