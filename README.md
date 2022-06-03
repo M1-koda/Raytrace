@@ -226,7 +226,29 @@ cn 0,-4,-1 0,1,0  6  8  90,255,90
 ./ratracing ./execise/sphere.rt
 ```
 
+#### 平面
+```
+./ratracing ./execise/plane.rt
+```
+
+#### 円筒
+```
+./ratracing ./execise/cylinder.rt
+```
+
+
+#### 三角形
+```
+./ratracing ./execise/triangle.rt
+```
+
+
+#### 四角形
+```
+./ratracing ./execise/square.rt
+```
+
 #### 円錐
 ```
-./ratracing ./execise/sphere.rt
+./ratracing ./execise/cone.rt
 ```
