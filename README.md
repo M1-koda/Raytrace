@@ -221,4 +221,12 @@ cn 0,-4,-1 0,1,0  6  8  90,255,90
 
 ### 例題
 
+#### 球
+```
+./ratracing ./execise/sphere.rt
+```
 
+#### 円錐
+```
+./ratracing ./execise/sphere.rt
+```
